@@ -42,17 +42,7 @@ namespace PixelWizards.Gameplay.Controllers
         private Vector3 forward;
         private Vector3 right;
         private float desiredAim = 0f;
-        
-        /*
-         * Rotation
-         */
-        [SerializeField]
-        private float rotateThreshold = 25f;
-        [SerializeField]
-        private bool needToRotate = false;
-        [SerializeField]
-        private float lastRotate = 0f;
-        
+  
         /// <summary>
         /// The master event, all other systems listen to this and react accordingly
         /// </summary>
@@ -134,7 +124,7 @@ namespace PixelWizards.Gameplay.Controllers
                 {
                     var targetRotation = Quaternion.LookRotation(state.movement);
                     transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation,
-                        Time.deltaTime * state.magicNumber * 5);
+                        Time.deltaTime * state.magicNumber * 15);
                 }
             }
             // aiming (combat) movement

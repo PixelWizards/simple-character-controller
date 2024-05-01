@@ -61,22 +61,8 @@ namespace PixelWizards.Gameplay.Controllers
                 anim.SetFloat(speedHash, vSpeed);
                 anim.SetFloat(strafeHash, hSpeed);  
             }
+            
 
-            if (!state.isGrounded)
-            {
-                freeFallTimer += Time.deltaTime;
-                if (freeFallTimer > freeFallThreshold)
-                {
-                    Debug.Log("falling!");
-                    inFreeFall = true;
-                }
-            }
-            else
-            {
-                inFreeFall = false;
-            }
-
-            anim.SetBool(freeFallHash, inFreeFall);
             anim.SetBool(groundedHash, state.isGrounded);
             anim.SetFloat(aimHash, state.aiming);
         }
