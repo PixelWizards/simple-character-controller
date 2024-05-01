@@ -24,7 +24,8 @@ namespace PixelWizards.Gameplay.Controllers
         /// <summary>
         /// magic number we use to multiply with Time.deltaTime for proper update cadence for lerping etc
         /// </summary>
-        private float magicNumber = 50;
+        [SerializeField]
+        private float magicNumber = 15;
         
         /// <summary>
         /// the master copy of our player state, we pass this around to the other components
@@ -59,7 +60,7 @@ namespace PixelWizards.Gameplay.Controllers
                 walkSpeed = walkSpeed,
                 runSpeed = runSpeed,
                 magicNumber = magicNumber,
-                mainCam = Camera.main.transform
+                mainCam = Camera.main.transform,
             };
         }
         
@@ -112,8 +113,6 @@ namespace PixelWizards.Gameplay.Controllers
         
         private void DoRotation()
         {
-            state.doRotate = false;
-            
             // just normal movement
             if (state.aiming < 0.5)
             {
