@@ -6,6 +6,12 @@ A simple Unity character controller
 ------------------------------------------------------
 The simplest way to describe this is a rework of the character controller that is available in the Unity Starter / Standard packages.
 
+## Trailer
+
+![Preview Trailer](https://www.youtube.com/watch?v=OF-5xu5xEpM)
+
+Preview Trailer: https://www.youtube.com/watch?v=OF-5xu5xEpM
+
 # Multiple movement modes
 
 ## Free Roam
