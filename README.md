@@ -8,7 +8,7 @@ The simplest way to describe this is a rework of the character controller that i
 
 ## Trailer
 
-![Preview Trailer](https://www.youtube.com/watch?v=OF-5xu5xEpM)
+![Preview Trailer](.Docs/Thumbnail.png)
 
 Preview Trailer: https://www.youtube.com/watch?v=OF-5xu5xEpM
 
