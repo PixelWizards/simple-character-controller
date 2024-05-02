@@ -42,6 +42,13 @@ Project was built with setup with URP, Unity 2022.3.24f1, but has no dependency 
 - there are some random bugs that I haven't had time to sort out (going up the stairs speeds you up? wtf?) anyways...
 - you fall far too fast, it's jarring, need to revise gravity logic
 
+# Get in touch!
+
+If you have any feature requests / bug reports, or want to chat about the character controller (or any game dev topics)
+please feel free to join our discord! 
+
+https://discord.gg/qKVPm4XWZ9
+
 # Character by Quaternius
 ------------------------------------------------------
 Ultimate Modular Males, Ultimate Modular Females and Zombie by @Quaternius
