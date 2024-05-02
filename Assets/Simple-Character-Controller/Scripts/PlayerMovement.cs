@@ -1,7 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.TextCore.Text;
 
 namespace PixelWizards.Gameplay.Controllers
 {
@@ -84,12 +82,10 @@ namespace PixelWizards.Gameplay.Controllers
         private void Start()
         {
             cc = GetComponent<CharacterController>();
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
 
             jumpDelta = jumpTimeout;
             fallDelta = fallTimeout;
-            
+
             // setup our initial player state
             state = new PlayerState
             {
@@ -98,10 +94,17 @@ namespace PixelWizards.Gameplay.Controllers
                 magicNumber = magicNumber,
                 mainCam = Camera.main.transform,
             };
+
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
-        
+
         private void Update()
         {
+            // are we paused?
+            if (!state.isEnabled)
+                return;
+            
             HandleInput();          // player input
             CheckGrounded();        // we on the ground?            
             JumpGravity();          // falling or jumping?

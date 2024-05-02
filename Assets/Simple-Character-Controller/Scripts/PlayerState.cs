@@ -2,12 +2,6 @@
 
 namespace PixelWizards.Gameplay.Controllers
 {
-    public enum CharacterMode
-    {
-        Normal,
-        Combat,
-    }
-    
     /// <summary>
     /// Holds all of the player's dynamic state, passed around to the various systems to do their thing
     /// </summary>
@@ -15,9 +9,7 @@ namespace PixelWizards.Gameplay.Controllers
     public class PlayerState
     {
         public PlayerInput input = new();
-        // TODO: add state machine 
-        //public CharacterMode mode = CharacterMode.Normal;        // our main character state
-        //public CharacterMode lastMode;
+        public bool isEnabled = true;               // if we need to pause the character for some reason
         public float walkSpeed;                     // player configuable
         public float runSpeed;                      // player configuable
         public float aiming = 0f;                   // 0 == normal movement, 1 == combat movement
@@ -31,6 +23,9 @@ namespace PixelWizards.Gameplay.Controllers
         public Vector3 rotateAmount = Vector3.zero; // if we are standing and need to rotate, by how much?
     }
 
+    /// <summary>
+    /// Cache the raw input
+    /// </summary>
     [System.Serializable]
     public class PlayerInput
     {
