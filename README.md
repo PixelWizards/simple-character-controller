@@ -36,6 +36,12 @@ Code is in /Scripts
 
 Project was built with setup with URP, Unity 2022.3.24f1, but has no dependency on URP, will work with any render pipeline.
 
+# Known Issues
+
+- the jump code is basically the same as the original starter assets code, it's pretty jank, will take a look at it
+- there are some random bugs that I haven't had time to sort out (going up the stairs speeds you up? wtf?) anyways...
+- you fall far too fast, it's jarring, need to revise gravity logic
+
 # Character by Quaternius
 ------------------------------------------------------
 Ultimate Modular Males, Ultimate Modular Females and Zombie by @Quaternius
