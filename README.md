@@ -55,8 +55,6 @@ https://discord.gg/qKVPm4XWZ9
 ## Character by Quaternius
 ------------------------------------------------------
 Ultimate Modular Males, Ultimate Modular Females and Zombie by @Quaternius
-Consider supporting me on Patreon, even $1 helps me a lot!
-
 https://www.patreon.com/quaternius
 
 Character License:
