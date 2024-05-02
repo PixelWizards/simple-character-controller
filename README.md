@@ -12,6 +12,10 @@ The simplest way to describe this is a rework of the character controller that i
 
 Preview Trailer: https://www.youtube.com/watch?v=OF-5xu5xEpM
 
+## Demo 
+There is a demo (windows exe) available, if you'd like to check it out:
+https://github.com/PixelWizards/simple-character-controller/releases/download/Release%2F1.0/Simple-Character-Controller-Demo-Release-1.0.zip
+
 # Multiple movement modes
 
 ## Free Roam
