@@ -65,22 +65,27 @@ https://discord.gg/qKVPm4XWZ9
 
 ## Character by Quaternius
 ------------------------------------------------------
-Ultimate Modular Males, Ultimate Modular Females and Zombie by @Quaternius
+### Ultimate Modular Females by @Quaternius
+
 https://www.patreon.com/quaternius
 
-Character License:
-CC0 1.0 Universal (CC0 1.0) 
-Public Domain Dedication
+Character License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+
 https://creativecommons.org/publicdomain/zero/1.0/
 
+## Environment / Animations are from Unity:
 
-## Animations are from Unity:
-------------------------------------------------------
-These animations are from the Unity Standard-Assets-Characters repo:
+The animations are from the Unity Standard-Assets-Characters repo:
+
 https://github.com/Unity-Technologies/Standard-Assets-Characters
 
-These animations are from the Unity Starter Assets - Third Person
+The environment and additional animations are from the Unity Starter Assets - Third Person
+
 https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526
+
+License: Unity Companion License:
+
+https://unity.com/legal/licenses/unity-companion-license
 
 Animation License:
 Unity Companion License:
