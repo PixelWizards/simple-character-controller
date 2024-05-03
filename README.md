@@ -46,6 +46,11 @@ Project was built with setup with URP, Unity 2022.3.24f1, but has no dependency 
 - the jump code is basically the same as the original starter assets code, it's pretty jank, will take a look at it
 - there are some random bugs that I haven't had time to sort out (going up the stairs speeds you up? wtf?) anyways...
 - you fall far too fast, it's jarring, need to revise gravity logic
+- Report any bugs you find! (use Github Issues)
+
+# Roadmap
+We have a public roadmap over on Codecks:
+https://open.codecks.io/simple-character-controller
 
 # Get in touch!
 
