@@ -187,7 +187,6 @@ namespace PixelWizards.Gameplay.Controllers
             }
         }
 
-
         /// <summary>
         /// move the character
         /// </summary>
