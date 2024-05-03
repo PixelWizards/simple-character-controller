@@ -18,10 +18,6 @@ namespace PixelWizards.Gameplay.Controllers
 
         private float hSpeed, vSpeed;
 
-        private bool inFreeFall = false;
-        private float freeFallTimer;
-        private float freeFallThreshold = 0.25f;
-
         private void Start()
         {
             anim = GetComponent<Animator>();
@@ -47,6 +43,10 @@ namespace PixelWizards.Gameplay.Controllers
         /// <param name="state"></param>
         private void OnUpdatePlayerState(PlayerState state)
         {
+            // make sure this is talking to us
+            if (state.thisCharacter != gameObject)
+                return;
+
             // reset a few things
             anim.SetBool(jumpHash, false);
             anim.SetBool(freeFallHash, false);
@@ -54,12 +54,7 @@ namespace PixelWizards.Gameplay.Controllers
             // these will override the move stuff below
             anim.SetBool(jumpHash, state.doJump);
             anim.SetBool(freeFallHash, state.inFreeFall);
-            
-            /*if (!state.isGrounded)
-            {
-                // add fall state etc
-            }
-            else*/
+
             // normal movement
             if (state.aiming < 0.5)
             {

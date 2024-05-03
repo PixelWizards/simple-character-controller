@@ -89,6 +89,7 @@ namespace PixelWizards.Gameplay.Controllers
             // setup our initial player state
             state = new PlayerState
             {
+                thisCharacter = gameObject,
                 walkSpeed = walkSpeed,
                 runSpeed = runSpeed,
                 magicNumber = magicNumber,

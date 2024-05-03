@@ -8,7 +8,8 @@ namespace PixelWizards.Gameplay.Controllers
     [System.Serializable]
     public class PlayerState
     {
-        public PlayerInput input = new();
+        public GameObject thisCharacter;           // which character this refers to
+        public PlayerInput input = new();           // the raw player input for this frame
         public bool isEnabled = true;               // if we need to pause the character for some reason
         public float walkSpeed;                     // player configuable
         public float runSpeed;                      // player configuable
