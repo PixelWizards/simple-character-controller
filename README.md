@@ -13,11 +13,15 @@ The simplest way to describe this is a rework of the character controller that i
 Preview Trailer: https://www.youtube.com/watch?v=OF-5xu5xEpM
 
 ## Demo 
+------------------------------------------------------
 There is a demo (windows exe) available, if you'd like to check it out:
 
 https://github.com/PixelWizards/simple-character-controller/releases/download/Release%2F1.0/Simple-Character-Controller-Demo-Release-1.0.zip
 
-# Multiple movement modes
+# Features
+------------------------------------------------------
+
+Multiple movement modes:
 
 ## Free Roam
 Camera relative movement, Character rotates to face the direction that they are moving
@@ -41,27 +45,27 @@ Code is in /Scripts
 
 Project was built with setup with URP, Unity 2022.3.24f1, but has no dependency on URP, will work with any render pipeline.
 
-# Known Issues
+# User Manual
+------------------------------------------------------
 
-- the jump code is basically the same as the original starter assets code, it's pretty jank, will take a look at it
-- there are some random bugs that I haven't had time to sort out (going up the stairs speeds you up? wtf?) anyways...
-- you fall far too fast, it's jarring, need to revise gravity logic
-- Report any bugs you find! (use Github Issues)
+https://megacrush.gitbook.io/megacrush-unity-assets/v/simple-character-controller/
 
 # Roadmap
+------------------------------------------------------
 We have a public roadmap over on Codecks:
 
 https://open.codecks.io/simple-character-controller
 
 # Get in touch!
+------------------------------------------------------
 
 If you have any feature requests / bug reports, or want to chat about the character controller (or any game dev topics)
 please feel free to join our discord! 
 
 https://discord.gg/qKVPm4XWZ9
 
-
 # Asset Licenses
+------------------------------------------------------
 
 ## Character by Quaternius
 ------------------------------------------------------
