@@ -102,7 +102,7 @@ namespace PixelWizards.Gameplay.Controllers
 
         private void Update()
         {
-            // are we paused?
+            // if we aren't enabled, then ignore (if we're paused, a network character etc)
             if (!state.isEnabled)
                 return;
             
