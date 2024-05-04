@@ -90,6 +90,7 @@ namespace PixelWizards.Gameplay.Controllers
             state = new PlayerState
             {
                 thisCharacter = gameObject,
+                isEnabled = true,           // default we're enabled, but this might be a network character, game might be paused etc
                 walkSpeed = walkSpeed,
                 runSpeed = runSpeed,
                 magicNumber = magicNumber,
