@@ -250,6 +250,9 @@ namespace PixelWizards.Gameplay.Controllers
 
         private void OnDrawGizmos()
         {
+            // update gizmo color based on grounded state
+            Gizmos.color = state.isGrounded ? Color.green : Color.red;
+            
             Gizmos.DrawSphere(groundCheckPosition, groundOffset);
         }
     }
