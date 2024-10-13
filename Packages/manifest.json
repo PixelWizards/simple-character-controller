@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.unity.cinemachine": "2.9.7",
-    "com.unity.ide.rider": "3.0.28",
-    "com.unity.render-pipelines.universal": "14.0.10",
+    "com.unity.cinemachine": "2.10.1",
+    "com.unity.ide.rider": "3.0.31",
+    "com.unity.render-pipelines.universal": "14.0.11",
     "com.unity.textmeshpro": "3.0.8",
     "com.unity.timeline": "1.7.6",
     "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.9",
